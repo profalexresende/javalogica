@@ -26,10 +26,9 @@ public class Main {
         }
         else{
             System.out.println("Categoria inválida");
-            novoSalario=0;
+            novoSalario=salario;
         }
         System.out.println("Seu novo salário: R$" + novoSalario);
         leitor.close();
-
     }
 }
